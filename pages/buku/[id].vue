@@ -1,15 +1,12 @@
 <template>
   <div class="content">
     <div class="container-fluid pt-5">
-      <h2 class="text-center text-white">RINCIAN BUKU</h2>
+      <h2 class="text-center text-white">{{ buku?.judul }}</h2>
       <div class="row d-flex justify-content-center flex-md-wrap">
         <div class="col-auto col-lg-3 ">
           <img :src="buku?.cover" alt="cover buku" style="width: 250px;">
         </div>
         <div class="col-8 text-white">
-          <div class="row">
-            <h1 class="text start text-center my-4">{{ buku?.judul }}</h1>
-          </div>
           <div class="row">
             <h2>PENULIS: {{ buku?.penulis }}</h2>
             <h2>PENERBIT: {{ buku?.penerbit }}</h2>
