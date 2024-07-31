@@ -2,9 +2,9 @@
   <div class="content">
     <div class="container-fluid pt-5">
       <h2 class="text-center text-white">RINCIAN BUKU</h2>
-      <div class="row d-flex justify-content-center flex-md-wrap" style="padding-top: 130px;">
-        <div class="col-3 ">
-          <img :src="buku?.cover" class="cover row img-fluid" alt="cover buku" style="width: 250px;">
+      <div class="row d-flex justify-content-center flex-md-wrap">
+        <div class="col-auto col-lg-3 ">
+          <img :src="buku?.cover" alt="cover buku" style="width: 250px;">
         </div>
         <div class="col-8 text-white">
           <div class="row">
