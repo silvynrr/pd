@@ -4,8 +4,12 @@
       <div class="row">
         <div class="col-lg-12">
           <form @submit.prevent="kirimData">
-            <h2 class="text-center my-4">ISI DATA KUNJUNGAN</h2>
+            <h2 class="text-center my-4">
+              ISI DATA KUNJUNGAN</h2>
             <div class="mb-3">
+              <nuxt-link to="/" class="btn btn-light rounded-5 my-3">
+                  kembali
+                </nuxt-link>
               <input v-model="form.nama" type="text" class="form-control form-control-lg rounded-5"
                 placeholder="Nama...">
             </div>
@@ -57,7 +61,7 @@
                 <option v-for="(item, i) in objectives" :key="i" :value="item.id">{{ item.nama }}</option>
               </select>
             </div>
-            <input type="submit" class="btn btn-light rounded-5 px-5"></input>
+            <input type="submit" class="btn btn-light rounded-5"></input>
           </form>
         </div>
       </div>
@@ -121,7 +125,7 @@ onMounted(() => {
   /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   background-color: rgb(255, 255, 255);
   color: black;
-  width: 150px;
+  width: 100px;
   height: 50px;
 }
 

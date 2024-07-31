@@ -3,7 +3,7 @@
     <div class="container-fluid pt-5">
       <h2 class="text-center text-white">{{ buku?.judul }}</h2>
       <div class="row d-flex justify-content-center flex-md-wrap">
-        <div class="col-auto col-lg-3 ">
+        <div class="col-auto col-lg-3 my-3 ">
           <img :src="buku?.cover" alt="cover buku" style="width: 250px;">
         </div>
         <div class="col-8 text-white">
