@@ -2,7 +2,7 @@
   <div class="content">
     <div class="container-fluid">
       <div class="row mx-1 py-5">
-        <div class="col-lg-6 col mb-3">
+        <div class="col-lg-6 col-12 mb-3">
           <nuxt-link to="/pengunjung/riwayat" class="text-black text-decoration-none">
             <div class="card bg-pengunjung rounded-5">
               <div class="card-body pt-5">
@@ -12,7 +12,7 @@
           </nuxt-link>
         </div>
 
-        <div class="col-lg-6 col">
+        <div class="col-lg-6 col-12">
           <nuxt-link to="/buku" class="text-black text-decoration-none">
             <div class="card bg-buku rounded-5">
               <div class="card-body pt-5">
